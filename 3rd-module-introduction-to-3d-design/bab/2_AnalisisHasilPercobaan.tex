@@ -1,0 +1,33 @@
+% Bagian Analisis Hasil Percobaan
+\section*{Analisis Hasil Percobaan}
+\indent
+Pada praktikum desain 3D model dengan menggunakan software Fusion 360, kami membuat sebuah desain kubus dengan nomor kelompok 4 yang menjorok ke dalam. Hasil desain kubus tersebut dapat dilihat pada gambar \ref{fig:cube}. Selain itu, kami juga menginstall Ultimaker CURA yang dapat dilihat pada gambar \ref{fig:ultimaker}. \\
+
+\indent
+Pada saat praktikum, kami mendesain sebuah \textit{enclosure} dari ESP8266. Desain tersebut dapat dilihat pada gambar \ref{fig:enclosure-atas} dan gambar \ref{fig:enclosure-3d}. Saat proses desain, kami mengalami beberapa kendala, yaitu:
+\begin{enumerate}
+  \item Saat membuat \textit{enclosure} ESP8266, kami mengalami kesulitan dalam membuat dasar dari \textit{enclosure}, saat kami menggunakan line, line tersebut tidak menjadi satu kesatuan saat di-\textit{extrude}. Lalu pada akhirnya kami menggunakan rectangle untuk membuat dasar dari \textit{enclosure} tersebut.
+  \item Saat membuat bagian atas dari \textit{enclosure}, kami mengalami kendala dalam penempatan tutup \textit{enclosure}. Hal ini dikarenakan kami tidak mengetahui adanya fitur plane yang dapat digunakan untuk membuat dasar dari tutup \textit{enclosure}.
+  \item Sebelumnya kami sudah pernah melihat hasil desain dari teman-teman mekanik di Barunastra ITS, terkadang mereka memberikan offset beberapa milimeter dari bagian dalam \textit{enclosure} sehingga ketika 3D print tidak akurat, masih ada batas toleransi. Namun, setelah proses 3D print, kami melihat bahwa hasil print 3D lebih besar dari ukuran ESP8266. Yang artinya 3D print masih sangat akurat dan tidak perlu diberikan toleransi yang besar.
+\end{enumerate}
+
+\indent
+Lalu kemudian setelah mendesain \textit{enclosure} tersebut, kami mencoba untuk melakukan print 3D keesokan harinya di B401. Setelah melakukan finalisasi desain, kami melakukan slicing pada Ultimaker CURA pada laptop asisten praktikum. Alasan tidak menggunakan laptop masing-masing karena instalasi yang rumit. Setelah melakukan slicing, kami melakukan print 3D pada Ultimaker 3. Hasil print 3D dapat dilihat pada gambar \ref{fig:enclosure-jadi}. Namun, kami tidak menduga bahwa tinggi pin USB TTL melebihi enclosure yang kami buat. Sehingga kami harus melakukan pemotongan manual menggunakan tang potong.
+
+\indent
+Kami akhirnya melakukan 3D print ulang dengan menambah tinggi \textit{enclosure} 20 mm. Hasil print 3D dapat dilihat pada gambar \ref{fig:enclosure-jadi-new}.
+
+
+% \begin{table}[h]
+%     \centering
+%     \caption{Caption tabelnya}
+%     \label{tab:labelini}
+%     \begin{tabular}{|c|c|c|}
+%     \hline
+%     Kolom 1 & Kolom 2 & Kolom 3 \\
+%     \hline
+%     Data 1 & Data 2 & Data 3 \\
+%     Data 4 & Data 5 & Data 6 \\
+%     \hline
+%     \end{tabular}
+% \end{table}
